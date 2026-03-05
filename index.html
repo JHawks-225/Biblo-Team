@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Mon univers d’écriture</title>
   <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js"></script>
 </head>
 <body>
 
@@ -19,21 +20,22 @@
 <main>
   <section>
     <h2>Dernières œuvres</h2>
-    <ul>
-      <li><a href="chapitre1.html">Chapitre 1 – Exemple</a></li>
-      <!-- Ajoute ici tes autres chapitres -->
-    </ul>
+    <ul id="liste-oeuvres"></ul>
   </section>
 
   <section>
-    <h2>DEVISE</h2>
-    <p>Écrivain passionné, je partage mes textes et poèmes ici. Bonne lecture !</p>
+    <h2>Connexion / Inscription</h2>
+    <form id="login-form">
+      <input type="email" id="email" placeholder="Email">
+      <input type="password" id="password" placeholder="Mot de passe">
+      <button type="submit">Se connecter / S’inscrire</button>
+    </form>
   </section>
 </main>
 
 <footer>
-  <p>© 2026 — N'Guessan Jean Charles L.B/p>
+  <p>© 2026 — N'Guessan Jean Charles L.B</p>
 </footer>
 
 </body>
-    </html>
+</html>

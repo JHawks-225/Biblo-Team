@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Œuvres</title>
   <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js"></script>
 </head>
 <body>
 
@@ -17,14 +18,22 @@
 </header>
 
 <main>
-  <ul>
-    <li><a href="chapitre1.html">Chapitre 1 – Exemple</a></li>
-    <!-- Ajoute tes autres chapitres ici -->
-  </ul>
+  <section>
+    <h2>Déposer une œuvre</h2>
+    <form id="upload-form" enctype="multipart/form-data">
+      <input type="file" id="file" accept=".txt,.doc,.docx" required>
+      <button type="submit">Uploader</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Liste des œuvres</h2>
+    <ul id="liste-oeuvres"></ul>
+  </section>
 </main>
 
 <footer>
-  <p>© 2026 — Ton nom</p>
+  <p>© 2026 — N'Guessan Jean Charles L.B</p>
 </footer>
 
 </body>
