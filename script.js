@@ -1,7 +1,7 @@
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'
 
 const supabaseUrl = 'https://flpzogciajikcettrevc.supabase.co'
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZscHpvZ2NpYWppa2NldHRyZXZjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI2MjY0ODcsImV4cCI6MjA4ODIwMjQ4N30.xEwKRiSatjCXwBBegSkyFvrs6GHwTPAkDud0drwBX7Q'
+const supabaseKey = 'sb_publishable_yqnXfynEExoA2sbHgKUwRg_hTBmanmc'
 const supabase = createClient(supabaseUrl, supabaseKey)
 
 // Authentification
@@ -53,4 +53,5 @@ async function listFiles() {
     ul.appendChild(li)
   })
 }
+
 listFiles()
